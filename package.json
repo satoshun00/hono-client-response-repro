@@ -2,6 +2,7 @@
   "name": "my-app",
   "scripts": {
     "dev": "wrangler dev",
+    "dev2": "wrangler dev src/index2.ts",
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
